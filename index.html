@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Royal Design Studio - Professional 3D Visualization Services in Indore. Interior, Exterior & Walkthrough Visualization. Transform Your Vision into Reality.">
+    <meta name="keywords" content="3D visualization, interior design, exterior rendering, walkthrough, Indore, Royal Design Studio">
+    <meta name="author" content="Royal Design Studio">
+
+    <title>Royal Design Studio | Premium 3D Visualization Services in Indore</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i data-lucide="building-2"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="logo-name">Royal Design Studio</div>
+                    <div class="logo-tagline">3D Visualization Experts</div>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="tel:9098329768" class="btn-nav-cta">
+                    <i data-lucide="phone"></i>
+                    <span>Call Now</span>
+                </a></li>
+            </ul>
+
+            <!-- Mobile Toggle -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#portfolio" class="mobile-link">Portfolio</a>
+            <a href="#process" class="mobile-link">Process</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="tel:9098329768" class="mobile-link mobile-cta">
+                <i data-lucide="phone"></i> Call Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <div class="particles-bg" id="particles-js"></div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <div class="hero-badge" data-aos="fade-down">
+                <i data-lucide="award"></i>
+                <span>Premium 3D Visualization Services</span>
+            </div>
+
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                Transform Your <span class="highlight">Vision</span><br>
+                Into Stunning <span class="highlight">Reality</span>
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Royal Design Studio brings architectural dreams to life through photorealistic 3D visualization.<br>
+                Specializing in Interior, Exterior, and Immersive Walkthrough experiences.
+            </p>
+
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="#portfolio" class="btn-primary">
+                    <i data-lucide="image"></i>
+                    <span>View Portfolio</span>
+                </a>
+                <a href="#contact" class="btn-secondary">
+                    <i data-lucide="phone-call"></i>
+                    <span>Get Quote</span>
+                </a>
+            </div>
+
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="120">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">Crafting <span class="highlight">Architectural Excellence</span></h2>
+                <p class="section-subtitle">Where imagination meets precision through cutting-edge 3D visualization technology</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-intro">
+                        <h3>Welcome to Royal Design Studio</h3>
+                        <p>Based in the heart of Indore at Usha Nagar, Mhow Naka Square, we are a premier 3D visualization studio dedicated to bringing architectural visions to life with unparalleled precision and creativity.</p>
+                    </div>
+
+                    <div class="about-description">
+                        <p>Our team of skilled 3D artists and visualization experts specializes in creating photorealistic renderings that help architects, builders, interior designers, and real estate developers present their projects in the most compelling way possible.</p>
+
+                        <p>With state-of-the-art technology and an eye for detail, we transform blueprints and concepts into stunning visual experiences that captivate clients and stakeholders, making decision-making easier and project approvals faster.</p>
+
+                        <p>Whether you're designing a luxurious residence, a commercial complex, or planning interior spaces, Royal Design Studio is your trusted partner in visualization excellence.</p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="check-circle"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Photorealistic Quality</h4>
+                                <p>Ultra-high resolution renders with accurate lighting, materials, and textures</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="zap"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Fast Turnaround</h4>
+                                <p>Efficient workflow ensuring on-time delivery without compromising quality</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Client-Centric Approach</h4>
+                                <p>Unlimited revisions and constant communication throughout the project</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i data-lucide="shield-check"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Professional Excellence</h4>
+                                <p>Industry-standard software and latest rendering techniques</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="visual-card glass-effect">
+                        <div class="visual-icon">
+                            <i data-lucide="building-2"></i>
+                        </div>
+                        <h3>Our Expertise</h3>
+                        <div class="expertise-list">
+                            <div class="expertise-item">
+                                <i data-lucide="home"></i>
+                                <span>Residential Interiors</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i data-lucide="store"></i>
+                                <span>Commercial Spaces</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i data-lucide="landmark"></i>
+                                <span>Exterior Facades</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i data-lucide="video"></i>
+                                <span>3D Walkthroughs</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i data-lucide="layout"></i>
+                                <span>Floor Planning</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i data-lucide="sun"></i>
+                                <span>Lighting Design</span>
+                            </div>
+                        </div>
+
+                        <div class="location-badge">
+                            <i data-lucide="map-pin"></i>
+                            <span>Serving Indore & Beyond</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title"><span class="highlight">Comprehensive</span> 3D Solutions</h2>
+                <p class="section-subtitle">From concept to completion - we deliver visualization services that exceed expectations</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Interior Visualization -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <i data-lucide="home"></i>
+                    </div>
+                    <h3>Interior Visualization</h3>
+                    <p class="service-desc">Transform interior spaces into photorealistic 3D renders showcasing furniture, lighting, materials, and decor with stunning accuracy.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> Living & Bedroom Renders</div>
+                        <div class="feature"><i data-lucide="check"></i> Kitchen & Bathroom Design</div>
+                        <div class="feature"><i data-lucide="check"></i> Office & Commercial Interiors</div>
+                        <div class="feature"><i data-lucide="check"></i> Lighting & Material Studies</div>
+                        <div class="feature"><i data-lucide="check"></i> Multiple Camera Angles</div>
+                        <div class="feature"><i data-lucide="check"></i> Unlimited Revisions</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹3,999</span>
+                        <span class="price-unit">per render</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%20Interior%20Visualization%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
+                <!-- Service 2: Exterior Visualization -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i data-lucide="landmark"></i>
+                    </div>
+                    <h3>Exterior Visualization</h3>
+                    <p class="service-desc">Showcase building facades, landscapes, and outdoor spaces with realistic lighting, materials, and environmental elements.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> Residential Elevations</div>
+                        <div class="feature"><i data-lucide="check"></i> Commercial Buildings</div>
+                        <div class="feature"><i data-lucide="check"></i> Landscape & Hardscape</div>
+                        <div class="feature"><i data-lucide="check"></i> Day & Night Views</div>
+                        <div class="feature"><i data-lucide="check"></i> Aerial Perspectives</div>
+                        <div class="feature"><i data-lucide="check"></i> Environmental Context</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹4,999</span>
+                        <span class="price-unit">per render</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%20Exterior%20Visualization%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
+                <!-- Service 3: 3D Walkthrough -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i data-lucide="video"></i>
+                    </div>
+                    <h3>3D Walkthrough</h3>
+                    <p class="service-desc">Immersive animated walkthroughs that take viewers on a virtual tour through your architectural projects with cinematic quality.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> Full HD/4K Video</div>
+                        <div class="feature"><i data-lucide="check"></i> Smooth Camera Movement</div>
+                        <div class="feature"><i data-lucide="check"></i> Background Music & VO</div>
+                        <div class="feature"><i data-lucide="check"></i> 60-120 Seconds Duration</div>
+                        <div class="feature"><i data-lucide="check"></i> Interior + Exterior Flow</div>
+                        <div class="feature"><i data-lucide="check"></i> Professional Editing</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹15,999</span>
+                        <span class="price-unit">per project</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%203D%20Walkthrough%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
+                <!-- Service 4: Floor Plan Rendering -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Floor Plan Rendering</h3>
+                    <p class="service-desc">Transform 2D blueprints into engaging 3D floor plans with furniture, fixtures, and realistic materials for better visualization.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> 2D to 3D Conversion</div>
+                        <div class="feature"><i data-lucide="check"></i> Furniture Layout</div>
+                        <div class="feature"><i data-lucide="check"></i> Material Textures</div>
+                        <div class="feature"><i data-lucide="check"></i> Measurement Labels</div>
+                        <div class="feature"><i data-lucide="check"></i> Multiple Levels</div>
+                        <div class="feature"><i data-lucide="check"></i> High Resolution Output</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹2,499</span>
+                        <span class="price-unit">per floor</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%20Floor%20Plan%20Rendering%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
+                <!-- Service 5: Product Visualization -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i data-lucide="box"></i>
+                    </div>
+                    <h3>Product Visualization</h3>
+                    <p class="service-desc">Showcase furniture, fixtures, and architectural products with studio-quality 3D renders perfect for catalogs and marketing.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> Furniture Modeling</div>
+                        <div class="feature"><i data-lucide="check"></i> Lighting Fixtures</div>
+                        <div class="feature"><i data-lucide="check"></i> Studio Lighting Setup</div>
+                        <div class="feature"><i data-lucide="check"></i> 360° Product Views</div>
+                        <div class="feature"><i data-lucide="check"></i> Material Variants</div>
+                        <div class="feature"><i data-lucide="check"></i> E-commerce Ready</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹1,999</span>
+                        <span class="price-unit">per product</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%20Product%20Visualization%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+
+                <!-- Service 6: Virtual Staging -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i data-lucide="wand-2"></i>
+                    </div>
+                    <h3>Virtual Staging</h3>
+                    <p class="service-desc">Transform empty spaces into fully furnished, styled interiors perfect for real estate marketing and property sales.</p>
+
+                    <div class="service-features">
+                        <div class="feature"><i data-lucide="check"></i> Photo-to-Render Conversion</div>
+                        <div class="feature"><i data-lucide="check"></i> Furniture Placement</div>
+                        <div class="feature"><i data-lucide="check"></i> Decor & Accessories</div>
+                        <div class="feature"><i data-lucide="check"></i> Multiple Style Options</div>
+                        <div class="feature"><i data-lucide="check"></i> Fast 48-Hour Delivery</div>
+                        <div class="feature"><i data-lucide="check"></i> Real Estate Optimized</div>
+                    </div>
+
+                    <div class="service-pricing">
+                        <span class="price-label">Starting from</span>
+                        <span class="price">₹1,499</span>
+                        <span class="price-unit">per image</span>
+                    </div>
+
+                    <a href="https://wa.me/919098329768?text=Hi!%20I'm%20interested%20in%20Virtual%20Staging%20services.%20Please%20share%20more%20details." class="btn-service">
+                        <i data-lucide="message-circle"></i>
+                        <span>Get Started</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROCESS SECTION ==================== -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Process</span>
+                <h2 class="section-title">How We <span class="highlight">Create Magic</span></h2>
+                <p class="section-subtitle">A streamlined workflow designed to deliver exceptional results on time, every time</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="message-square"></i>
+                        </div>
+                        <h3>Consultation & Brief</h3>
+                        <p>We begin with understanding your vision, project requirements, target audience, and specific expectations through detailed discussion.</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="file-text"></i>
+                        </div>
+                        <h3>Proposal & Planning</h3>
+                        <p>Receive a detailed proposal with timeline, pricing, and project scope. We finalize camera angles, styles, and deliverables.</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="box-select"></i>
+                        </div>
+                        <h3>3D Modeling</h3>
+                        <p>Our team creates accurate 3D models based on your architectural plans, ensuring every detail matches your specifications.</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <h3>Texturing & Lighting</h3>
+                        <p>We apply realistic materials, textures, and lighting setups to bring depth, atmosphere, and photorealism to the visualization.</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-right" data-aos-delay="500">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="image"></i>
+                        </div>
+                        <h3>Initial Render Review</h3>
+                        <p>Review the first draft renders and provide feedback. We offer unlimited revisions to ensure complete satisfaction.</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-left" data-aos-delay="600">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i data-lucide="check-circle"></i>
+                        </div>
+                        <h3>Final Delivery</h3>
+                        <p>Receive high-resolution final renders in your preferred format, ready for presentations, marketing, or approvals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO SECTION ==================== -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Portfolio of <span class="highlight">Excellence</span></h2>
+                <p class="section-subtitle">Explore our collection of stunning 3D visualizations across various architectural styles</p>
+            </div>
+
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="walkthrough">Walkthrough</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item" data-category="interior" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);">
+                            <i data-lucide="image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Interior Design</span>
+                        <h3>Modern Living Room</h3>
+                        <p>Contemporary residential interior with minimalist aesthetics and warm lighting ambiance.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item" data-category="exterior" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+                            <i data-lucide="image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Exterior</span>
+                        <h3>Luxury Villa Facade</h3>
+                        <p>Stunning 3-story villa exterior with modern architecture and landscape design.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item" data-category="walkthrough" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #141E30 0%, #243B55 100%);">
+                            <i data-lucide="video"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">3D Walkthrough</span>
+                        <h3>Residential Apartment Tour</h3>
+                        <p>Immersive 3D walkthrough showcasing complete apartment layout with cinematic quality.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item" data-category="commercial" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #2C3E50 0%, #4CA1AF 100%);">
+                            <i data-lucide="image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Commercial</span>
+                        <h3>Corporate Office Interior</h3>
+                        <p>Professional office space design with modern workstations and collaborative areas.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item" data-category="interior" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #232526 0%, #414345 100%);">
+                            <i data-lucide="image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Interior Design</span>
+                        <h3>Master Bedroom Suite</h3>
+                        <p>Luxurious bedroom interior with custom furniture and elegant lighting design.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item" data-category="exterior" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #134E5E 0%, #71B280 100%);">
+                            <i data-lucide="image"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="portfolio-tag">Exterior</span>
+                        <h3>Commercial Complex</h3>
+                        <p>Multi-story commercial building with contemporary facade and urban landscaping.</p>
+                        <div class="portfolio-meta">
+                            <span><i data-lucide="map-pin"></i> Indore</span>
+                            <span><i data-lucide="calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta" data-aos="fade-up">
+                <h3>Ready to Visualize Your Dream Project?</h3>
+                <p>Let's bring your architectural vision to life with stunning 3D visualizations</p>
+                <a href="#contact" class="btn-primary">
+                    <i data-lucide="phone-call"></i>
+                    <span>Start Your Project</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+                <p class="section-subtitle">Don't just take our word for it - hear from satisfied clients</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <p class="testimonial-text">"Royal Design Studio exceeded our expectations with their photorealistic interior renders. The attention to detail and quick turnaround time helped us close deals faster. Highly recommended!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">AR</div>
+                        <div class="client-details">
+                            <h4>Amit Rajput</h4>
+                            <p>Interior Designer, Indore</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <p class="testimonial-text">"The 3D walkthrough created by Royal Design Studio was absolutely stunning! It helped our clients visualize the entire property before construction. Professional service at competitive pricing."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">PS</div>
+                        <div class="client-details">
+                            <h4>Priya Sharma</h4>
+                            <p>Real Estate Developer</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="quote-icon">
+                        <i data-lucide="quote"></i>
+                    </div>
+                    <p class="testimonial-text">"Outstanding exterior visualization work! The lighting and material accuracy were spot-on. Royal Design Studio's team is responsive, creative, and delivers on time. Will work again!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">VK</div>
+                        <div class="client-details">
+                            <h4>Vikram Kapoor</h4>
+                            <p>Architect, Indore</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                        <i data-lucide="star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="highlight">Create Together</span></h2>
+                <p class="section-subtitle">Ready to transform your vision into stunning 3D reality? Contact us today!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card glass-effect">
+                        <div class="info-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <a href="tel:9098329768" class="info-link">+91 9098329768</a>
+                        <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                    </div>
+
+                    <div class="info-card glass-effect">
+                        <div class="info-icon">
+                            <i data-lucide="message-circle"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/919098329768" class="info-link">Chat on WhatsApp</a>
+                        <p>Quick response guaranteed</p>
+                    </div>
+
+                    <div class="info-card glass-effect">
+                        <div class="info-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p class="info-link">Usha Nagar, Mhow Naka Square</p>
+                        <p>Indore, Madhya Pradesh</p>
+                    </div>
+
+                    <div class="info-card glass-effect">
+                        <div class="info-icon">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <h3>Working Hours</h3>
+                        <p class="info-link">Monday - Saturday</p>
+                        <p>9:00 AM - 8:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours</p>
+
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit number" pattern="[0-9]{10}" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Required *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="Interior Visualization">Interior Visualization</option>
+                                <option value="Exterior Visualization">Exterior Visualization</option>
+                                <option value="3D Walkthrough">3D Walkthrough</option>
+                                <option value="Floor Plan Rendering">Floor Plan Rendering</option>
+                                <option value="Product Visualization">Product Visualization</option>
+                                <option value="Virtual Staging">Virtual Staging</option>
+                                <option value="Complete Package">Complete Package</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project requirements, timeline, and budget..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i data-lucide="send"></i>
+                            <span>Send Message via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col" data-aos="fade-up">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i data-lucide="building-2"></i>
+                        </div>
+                        <div class="logo-text">
+                            <div class="logo-name">Royal Design Studio</div>
+                            <div class="logo-tagline">3D Visualization Experts</div>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Transform your architectural vision into stunning reality with our premium 3D visualization services in Indore.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/919098329768" class="social-link" aria-label="WhatsApp">
+                            <i data-lucide="message-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Interior Visualization</a></li>
+                        <li><a href="#services">Exterior Rendering</a></li>
+                        <li><a href="#services">3D Walkthrough</a></li>
+                        <li><a href="#services">Floor Plan Rendering</a></li>
+                        <li><a href="#services">Product Visualization</a></li>
+                        <li><a href="#services">Virtual Staging</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Usha Nagar, Mhow Naka Square<br>Indore, Madhya Pradesh</span>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <a href="tel:9098329768">+91 9098329768</a>
+                        </li>
+                        <li>
+                            <i data-lucide="clock"></i>
+                            <span>Mon - Sat: 9 AM - 8 PM<br>Sunday: Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom" data-aos="fade-up">
+                <p>&copy; 2024 Royal Design Studio. All Rights Reserved.</p>
+                <p class="footer-credit">Designed & Developed by <a href="https://wa.me/918629933125" target="_blank">The Unlock Sales</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING WHATSAPP ==================== -->
+    <a href="https://wa.me/919098329768?text=Hi!%20I%20want%20to%20know%20more%20about%20Royal%20Design%20Studio%20services." class="floating-whatsapp" aria-label="WhatsApp" data-aos="zoom-in" data-aos-delay="1000">
+        <i data-lucide="message-circle"></i>
+        <span>Chat Now</span>
+    </a>
+
+    <!-- ==================== BACK TO TOP ==================== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script src="script.js"></script>
+</body>
+</html>
